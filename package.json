@@ -5,7 +5,12 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-dev":"nodemon app.js"
+    "start-dev": "nodemon app.js",
+    "node1": "nodemon app.js 3000 http://localhost:3000",
+    "node2": "nodemon app.js 3001 http://localhost:3001",
+    "node3": "nodemon app.js 3002 http://localhost:3002",
+    "node4": "nodemon app.js 3003 http://localhost:3003",
+    "node5": "nodemon app.js 3004 http://localhost:3004"
   },
   "repository": {
     "type": "git",
@@ -22,6 +27,7 @@
     "express": "^4.17.1",
     "morgan": "^1.9.1",
     "nodemon": "^1.19.1",
+    "request": "^2.88.0",
     "request-promise": "^4.2.4",
     "sha256": "^0.2.0",
     "uuid": "^3.3.2"

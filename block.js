@@ -33,7 +33,7 @@ blockchain.prototype.addtransaction=function(transactiondata){
     };
     this.pendingtransactions.push(newtransaction);
     var st="transaction added in block "+this.chain.length+1;
-    return({"note":st});
+    return(newtransaction);
 }
 
 blockchain.prototype.getblockchain=function(){
