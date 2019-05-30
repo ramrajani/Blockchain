@@ -1,0 +1,29 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramrajani/Blockchain.git"
+  },
+  "author": "RAM RAJANI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramrajani/Blockchain/issues"
+  },
+  "homepage": "https://github.com/ramrajani/Blockchain#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "request-promise": "^4.2.4",
+    "sha256": "^0.2.0",
+    "uuid": "^3.3.2"
+  }
+}
